@@ -14,7 +14,7 @@ In this problem, we're asking ourselves what's the least amount of coins we have
 
 Let's take the example coins = \[1, 2, 5] and amount = 11.
 We're going to start asking ourselves: "assuming we take the first coin (1), how many other coins do we need to reach 11?" That will be our first branch. The second branch will be "assuming we take the second coin (2), how many other coins do we need to reach 11?", likewise, we'll do the same thing for 5.
-The rest of the three will be the same thing, until we reach 11 or go over it.
+The rest of the tree will be the same thing, until we reach 11 or go over it.
 To memoize and improve the time complexity (DP) we'll use a dictionary to cache function calls. This way we're mapping the amount we need to the minimum number of coins to reach that value.
 
 Thinking of what it means to memoize the top-down solution can bring us closer to logically explain the bottom-up solution too. We want to store, for each "amount" (from 0 to the amount), what the minimum number of coins is to reach that amount.
