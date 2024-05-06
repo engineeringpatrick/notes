@@ -57,3 +57,34 @@ public:
     }
 };
 ```
+
+
+# [House Robber II](https://leetcode.com/problems/house-robber-ii/)
+
+#### Bottom up solution
+This is very similar to the *House Robber* problem, but it requires us to re-use that solution in a clever way.
+Basically, we want to compute the maximum amount of money we can steal, without ever robbing two adjacent houses. That's what we do in the maxRob() helper function.
+House Robber II complicates things by laying out the houses in a circular array, therefore the first and last house will be considered adjacent.
+To solve this, we can just compute the amount of money we can rob without the last house, as well as the amount of money we can rob without the first house, and then take the max of the two.
+
+Regarding the DP part, this is pretty trivial. For each house, we're asking ourselves, should I rob this one + the second to last house? or should I just rob the last house? Because these are our two options. We take the max of the two, and keep going that way. No need to track the whole thing as we only need the last 2 values.
+```cpp
+class Solution {
+public:
+    int rob(vector<int>& nums) {
+        if(nums.size() == 1) return nums[0];
+        return max(maxRob(nums, 0, nums.size() - 1), maxRob(nums, 1, nums.size()));    
+    }
+
+private:
+    int maxRob(vector<int>& nums, int start, int end){
+        vector<int> dp(2,0);
+        for(int i = start; i < end; i++){
+            int tmp = dp[1];
+            dp[1] = max(nums[i] + dp[0], dp[1]);
+            dp[0] = tmp;
+        }
+        return dp[1];
+    }
+};
+```
