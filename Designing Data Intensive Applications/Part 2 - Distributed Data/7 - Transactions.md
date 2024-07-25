@@ -48,3 +48,5 @@ The read transaction could've read 100 dollars for row 1 and then 0 dollars for 
 How do you fix this? Simple, reads read a snapshot of the data. 
 Snapshots are implemented by storing old values of modified data. Every write, you keep it in the WAL with a certain timestamp. So basically for every row you will have a list of different values in time.
 If you start a read transaction at timestamp 15, you will only read values with a timestamp of 15 max. If a write happens at timestamp 20, you won't read that value.
+
+## Write Skew and Phantom Writes
