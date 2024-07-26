@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Designing Data Intensive Applications/Part 2 - Distributed Data/7 - Transactions.md",
+                "file": "Designing Data Intensive Applications/Part 1 - Foundations/4 - Encoding and Evolution.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Designing Data Intensive Applications/Part 2 - Distributed Data/7 - Transactions.md",
+                "file": "Designing Data Intensive Applications/Part 1 - Foundations/4 - Encoding and Evolution.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Designing Data Intensive Applications/Part 2 - Distributed Data/7 - Transactions.md",
+                "file": "Designing Data Intensive Applications/Part 1 - Foundations/4 - Encoding and Evolution.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Designing Data Intensive Applications/Part 2 - Distributed Data/7 - Transactions.md"
+                "file": "Designing Data Intensive Applications/Part 1 - Foundations/4 - Encoding and Evolution.md"
               }
             }
           }
@@ -148,6 +148,13 @@
   },
   "active": "f1ea283ba87c14ca",
   "lastOpenFiles": [
+    "Designing Data Intensive Applications/Part 1 - Foundations/3 - Storage & Retrieval.md",
+    "Designing Data Intensive Applications/Part 1 - Foundations/4 - Encoding and Evolution.md",
+    "Designing Data Intensive Applications/Part 1 - Foundations/Untitled",
+    "Operating Systems Three Easy Pieces/Virtualization/Untitled",
+    "Designing Data Intensive Applications/Part 1 - Foundations/2 - Data Models and QLs.md",
+    "Designing Data Intensive Applications/Part 1 - Foundations/1 - Three Pillars.md",
+    "Designing Data Intensive Applications/Part 2 - Distributed Data/7 - Transactions.md",
     "Data Structures and Algorithms/Graphs.md",
     "Data Structures and Algorithms/Sorting.md",
     "Operating Systems Three Easy Pieces/Intro.md",
@@ -158,17 +165,13 @@
     "Operating Systems Three Easy Pieces",
     "Data Structures and Algorithms/Dynamic Programming.md",
     "Data Structures and Algorithms/Binary Search.md",
-    "Designing Data Intensive Applications/Part 2 - Distributed Data/7 - Transactions.md",
     "Designing Data Intensive Applications/Part 2 - Distributed Data/5 - Replication.md",
     "Designing Data Intensive Applications/Part 2 - Distributed Data/6 - Partitioning.md",
-    "Designing Data Intensive Applications/Part 1 - Foundations/3 - Storage & Retrieval.md",
     "assets/Pasted image 20240724030044.png",
     "assets/Pasted image 20240724032325.png",
     "assets/Pasted image 20240724032322.png",
-    "Designing Data Intensive Applications/Part 1 - Foundations/1 - Three Pillars.md",
     "Designing Data Intensive Applications.md",
     "assets/Pasted image 20240719053329.png",
-    "Designing Data Intensive Applications/Part 1 - Foundations/2 - Data Models and QLs.md",
     "assets/Pasted image 20240724014401.png",
     "assets/Pasted image 20240724014334.png",
     "assets/Pasted image 20240724012522.png",
