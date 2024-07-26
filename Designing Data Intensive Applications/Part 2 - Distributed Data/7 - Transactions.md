@@ -50,3 +50,25 @@ Snapshots are implemented by storing old values of modified data. Every write, y
 If you start a read transaction at timestamp 15, you will only read values with a timestamp of 15 max. If a write happens at timestamp 20, you won't read that value.
 
 ## Write Skew and Phantom Writes
+##### Write Skew
+Let's assume 2 different threads want to change their respective row's status to "inactive" only if 1 other row is active.
+Right now, they're the only 2 active rows.
+
+If they both change themselves to inactive at the same time, there'll be no active rows left!
+This is a problem. We fix this by using a lock.
+Threads acquire locks on ALL active rows, check if there's an active one, then change their status, then release locks.
+
+##### Phantom Writes
+Similar example, let's assume 2 threads want to add a new row if there's no other row with the same name in use. 
+If both do at the same time, things break.
+But there's no lock to acquire, how do we fix this?
+Well, we do **materialize conflicts**! This means, we insert the possible names as rows, with their own respective lock.
+
+Threads just have to acquire a lock, check if the row is used or not, if it's not used, then use it.
+
+# Serializability
+We saw how weak isolation is hard to debug and implemented differently among databases. Also, detecting race conditions is hard and difficult to tell looking at code.
+
+Serializable isolation is regarded as the strongest isolation level. It guarantees that even though transactions may execute in parallel, the end result is the same as if they had executed one at a time, serially, without any concurrency.
+
+...

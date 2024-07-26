@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Structures and Algorithms/Sorting.md",
+                "file": "Designing Data Intensive Applications/Part 2 - Distributed Data/7 - Transactions.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Structures and Algorithms/Sorting.md",
+                "file": "Designing Data Intensive Applications/Part 2 - Distributed Data/7 - Transactions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Structures and Algorithms/Sorting.md",
+                "file": "Designing Data Intensive Applications/Part 2 - Distributed Data/7 - Transactions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Structures and Algorithms/Sorting.md"
+                "file": "Designing Data Intensive Applications/Part 2 - Distributed Data/7 - Transactions.md"
               }
             }
           }
@@ -148,10 +148,11 @@
   },
   "active": "f1ea283ba87c14ca",
   "lastOpenFiles": [
+    "Data Structures and Algorithms/Graphs.md",
+    "Data Structures and Algorithms/Sorting.md",
     "Operating Systems Three Easy Pieces/Intro.md",
     "Operating Systems Three Easy Pieces/Persistence",
     "Operating Systems Three Easy Pieces/Concurrency",
-    "Data Structures and Algorithms/Sorting.md",
     "Operating Systems Three Easy Pieces/Virtualization",
     "Operating Systems Three Easy Pieces/Operating Systems Three Easy Pieces.md",
     "Operating Systems Three Easy Pieces",
