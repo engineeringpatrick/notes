@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Structures and Algorithms/Sorting.md",
+                "file": "Operating Systems Three Easy Pieces/Intro.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Structures and Algorithms/Sorting.md",
+                "file": "Operating Systems Three Easy Pieces/Intro.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Structures and Algorithms/Sorting.md",
+                "file": "Operating Systems Three Easy Pieces/Intro.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Structures and Algorithms/Sorting.md"
+                "file": "Operating Systems Three Easy Pieces/Intro.md"
               }
             }
           }
@@ -146,10 +146,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5cd2ab2d0760e458",
+  "active": "f1ea283ba87c14ca",
   "lastOpenFiles": [
-    "Operating Systems Three Easy Pieces/Operating Systems Three Easy Pieces.md",
+    "Operating Systems Three Easy Pieces/Persistence",
+    "Operating Systems Three Easy Pieces/Concurrency",
     "Data Structures and Algorithms/Sorting.md",
+    "Operating Systems Three Easy Pieces/Intro.md",
+    "Operating Systems Three Easy Pieces/Virtualization",
+    "Operating Systems Three Easy Pieces/Operating Systems Three Easy Pieces.md",
     "Operating Systems Three Easy Pieces",
     "Data Structures and Algorithms/Dynamic Programming.md",
     "Data Structures and Algorithms/Binary Search.md",
