@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Operating Systems Three Easy Pieces/Intro.md",
+                "file": "Data Structures and Algorithms/Sorting.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Operating Systems Three Easy Pieces/Intro.md",
+                "file": "Data Structures and Algorithms/Sorting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Operating Systems Three Easy Pieces/Intro.md",
+                "file": "Data Structures and Algorithms/Sorting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Operating Systems Three Easy Pieces/Intro.md"
+                "file": "Data Structures and Algorithms/Sorting.md"
               }
             }
           }
@@ -148,10 +148,10 @@
   },
   "active": "f1ea283ba87c14ca",
   "lastOpenFiles": [
+    "Operating Systems Three Easy Pieces/Intro.md",
     "Operating Systems Three Easy Pieces/Persistence",
     "Operating Systems Three Easy Pieces/Concurrency",
     "Data Structures and Algorithms/Sorting.md",
-    "Operating Systems Three Easy Pieces/Intro.md",
     "Operating Systems Three Easy Pieces/Virtualization",
     "Operating Systems Three Easy Pieces/Operating Systems Three Easy Pieces.md",
     "Operating Systems Three Easy Pieces",

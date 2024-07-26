@@ -29,8 +29,8 @@ vector<int> insertionSort(vector<int>& nums) {
 	// check number behind, and if it's greater, move it forward
 	for(int i = 1; i < nums.size(); i++){
 		int key = nums[i];
-		int j = i-1;
-		while(j>=0 && nums[j] > key){
+		int j = i - 1;
+		while(j >= 0 && nums[j] > key){
 			nums[j+1] = nums[j];
 			j--;
 		}
@@ -51,11 +51,7 @@ vector<int> insertionSort(vector<int>& nums) {
 			if(nums[j] < nums[minIdx]) minIdx = j;
 		}
 		
-		if(minIdx != i){
-			int temp = nums[i];
-			nums[i] = nums[minIdx];
-			nums[minIdx] = temp;
-		}
+		swap(nums[i], nums[minIdx]);
 	}
 	return nums;
 }
