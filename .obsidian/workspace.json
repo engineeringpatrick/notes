@@ -4,11 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "37f70df62d47e69a",
+        "id": "1a3547676c76f1df",
         "type": "tabs",
         "children": [
           {
-            "id": "84826b4047bd8b25",
+            "id": "d06de088c11b1f13",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Designing Data Intensive Applications/Part 1 - Foundations/2 - Data Models and QLs.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2 - Data Models and QLs"
+            }
+          },
+          {
+            "id": "d42d13de30b2d9d1",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -16,10 +30,13 @@
                 "file": "Data Structures and Algorithms/Graphs.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Graphs"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -39,7 +56,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -54,7 +73,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -62,7 +83,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -85,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Structures and Algorithms/Graphs.md",
+                "file": "assets/Pasted image 20240719054216.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +116,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Pasted image 20240719054216"
             }
           },
           {
@@ -102,10 +127,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Structures and Algorithms/Graphs.md",
+                "file": "assets/Pasted image 20240719054216.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Pasted image 20240719054216"
             }
           },
           {
@@ -116,7 +143,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -125,16 +154,28 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Structures and Algorithms/Graphs.md"
-              }
+                "file": "assets/Pasted image 20240719054216.png"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Pasted image 20240719054216"
+            }
+          },
+          {
+            "id": "dbb6942167499095",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -143,14 +184,40 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "84826b4047bd8b25",
+  "active": "d42d13de30b2d9d1",
   "lastOpenFiles": [
-    "Designing Data Intensive Applications/Part 1 - Foundations/3 - Storage & Retrieval.md",
-    "Designing Data Intensive Applications/Part 1 - Foundations/4 - Encoding and Evolution.md",
+    "Data Structures and Algorithms/Sorting.md",
+    "Data Structures and Algorithms/Graphs.md",
+    "assets/Pasted image 20240719054216.png",
+    "assets/Pasted image 20240719053329.png",
+    "assets/Pasted image 20240702195037.png",
     "Designing Data Intensive Applications/Part 2 - Distributed Data/5 - Replication.md",
+    "Operating Systems Three Easy Pieces/Concurrency.md",
+    "Operating Systems Three Easy Pieces/IO systems.md",
+    "Operating Systems Three Easy Pieces/CPU Scheduling.md",
+    "Designing Data Intensive Applications/Part 2 - Distributed Data/7 - Transactions.md",
+    "Designing Data Intensive Applications/Part 2 - Distributed Data/6 - Partitioning.md",
+    "Designing Data Intensive Applications/Part 1 - Foundations/4 - Encoding and Evolution.md",
+    "Designing Data Intensive Applications/Part 1 - Foundations/3 - Storage & Retrieval.md",
+    "Designing Data Intensive Applications/Part 1 - Foundations/2 - Data Models and QLs.md",
+    "Designing Data Intensive Applications/Part 1 - Foundations/1 - Three Pillars.md",
+    "Data Structures and Algorithms/Dynamic Programming.md",
+    "Data Structures and Algorithms/Binary Search.md",
+    "README.md",
+    "Operating Systems Three Easy Pieces/Virtual Memory.md",
+    "Operating Systems Three Easy Pieces/System Calls.md",
+    "Operating Systems Three Easy Pieces/Networking Basics.md",
+    "Blog/Week 0.md",
+    "Cpp/Effective STL",
+    "Cpp/Effective Modern CPP",
+    "Cpp/Effective CPP",
+    "Cpp",
+    "Operating Systems Three Easy Pieces/Intro.md",
+    "Blog",
     "assets/Pasted image 20240724032325.png",
     "assets/Pasted image 20240724032322.png",
     "assets/Pasted image 20240724030044.png",
@@ -158,28 +225,14 @@
     "assets/Pasted image 20240724014334.png",
     "assets/Pasted image 20240724012522.png",
     "assets/Pasted image 20240724011405.png",
-    "assets/Pasted image 20240724011320.png",
-    "assets/Pasted image 20240724011038.png",
-    "assets/Pasted image 20240724005625.png",
     "assets",
-    "Operating Systems Three Easy Pieces/Intro.md",
     "Operating Systems Three Easy Pieces",
-    "Designing Data Intensive Applications/Part 2 - Distributed Data/7 - Transactions.md",
-    "Designing Data Intensive Applications/Part 2 - Distributed Data/6 - Partitioning.md",
-    "Designing Data Intensive Applications/Part 1 - Foundations/2 - Data Models and QLs.md",
-    "Designing Data Intensive Applications/Part 1 - Foundations/1 - Three Pillars.md",
-    "Data Structures and Algorithms/Graphs.md",
     "Operating Systems Three Easy Pieces.md",
     "Designing Data Intensive Applications/Part 2 - Distributed Data/6 - Sharding.md",
     "Designing Data Intensive Applications/Part 1 - Foundations/Chapter 1.md",
-    "Data Structures and Algorithms/Binary Search.md",
-    "Data Structures and Algorithms/Dynamic Programming.md",
-    "Data Structures and Algorithms/Sorting.md",
     "Untitled.canvas",
     "Designing Data Intensive Applications/Part 2 - Distributed Data/Untitled",
     "Designing Data Intensive Applications/Part 1 - Foundations",
-    "Designing Data Intensive Applications/Part 2 - Distributed Data",
-    "Designing Data Intensive Applications",
-    "README.md"
+    "Designing Data Intensive Applications/Part 2 - Distributed Data"
   ]
 }
