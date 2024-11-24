@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Structures and Algorithms/Graphs.md",
+                "file": "Deep Learning/Machine Learning.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Graphs"
+              "title": "Machine Learning"
             }
           }
         ],
@@ -190,8 +190,10 @@
   },
   "active": "d42d13de30b2d9d1",
   "lastOpenFiles": [
-    "Data Structures and Algorithms/Sorting.md",
+    "Deep Learning/Machine Learning.md",
     "Data Structures and Algorithms/Graphs.md",
+    "Deep Learning",
+    "Data Structures and Algorithms/Sorting.md",
     "assets/Pasted image 20240719054216.png",
     "assets/Pasted image 20240719053329.png",
     "assets/Pasted image 20240702195037.png",
@@ -232,7 +234,6 @@
     "Designing Data Intensive Applications/Part 1 - Foundations/Chapter 1.md",
     "Untitled.canvas",
     "Designing Data Intensive Applications/Part 2 - Distributed Data/Untitled",
-    "Designing Data Intensive Applications/Part 1 - Foundations",
-    "Designing Data Intensive Applications/Part 2 - Distributed Data"
+    "Designing Data Intensive Applications/Part 1 - Foundations"
   ]
 }
